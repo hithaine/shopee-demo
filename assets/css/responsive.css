@@ -115,4 +115,12 @@
         width: 100%;
     }
 
+    .pagination__item {
+        font-size: 1.6rem;
+        min-width: 26px;
+        margin: 0 0;
+        padding: 5px 15px;
+        height:max-content
+    }
+
 }

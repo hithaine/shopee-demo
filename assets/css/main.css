@@ -1,3 +1,7 @@
+.app {
+    overflow: hidden;
+}
+
 .header{
     height: var(--header-height);
     background: linear-gradient(0,#ff6633,#f63e2e);

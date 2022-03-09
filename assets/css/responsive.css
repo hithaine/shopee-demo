@@ -115,6 +115,10 @@
         width: 100%;
     }
 
+    .home-product {
+        margin: 0 8px;
+    }
+
     .pagination__item {
         font-size: 1.6rem;
         min-width: 26px;

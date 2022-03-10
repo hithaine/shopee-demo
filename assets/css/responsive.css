@@ -72,6 +72,10 @@
     .cart-drawer__list {
         padding: 0 calc((100% - 644px) / 2);
     }
+
+    .footer__content{
+        margin-left: 160px;
+    }
 }
 
 /* Mobile*/

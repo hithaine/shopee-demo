@@ -126,6 +126,10 @@
         }
     }
 
+    .header-w-search__logo-img {
+        width: 110px;
+    }
+
     .search-bar__history {
         position: fixed;
         top: calc(var(--header-height) + var(--sort-bar));
@@ -146,4 +150,7 @@
         height:max-content
     }
 
+    .footer__content {
+        padding: 0 16px;
+    }
 }

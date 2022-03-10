@@ -158,4 +158,19 @@
     .footer__content {
         padding: 0 16px;
     }
+
+    .footer__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__download-qr {
+        display: none;
+    }
+
+    .footer__download-app-link {
+        padding: 7px 0;
+    }
 }

@@ -24,6 +24,14 @@
         width: 75px;
     }
 
+    .header-w-search__logo {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .cart-drawer {
+        -webkit-tap-highlight-color: transparent;
+    }
+
     .cart-drawer__list {
         position: fixed;
         top: var(--header-height);
@@ -37,11 +45,22 @@
 
     .app__container {
         margin-top: calc(var(--header-height) + var(--sort-bar));
+        padding-top: 8px;
     }
 
     .sort-bar {
         display: flex;
     }
+
+    .sort-bar--active {
+        color: #ee4d2d;
+        border-bottom: 3px solid #ee4d2d;
+    }
+    
+    .mobile-category__list {
+        display: flex;
+    }
+
 }
 
 /*tablet */

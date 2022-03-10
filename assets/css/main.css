@@ -943,18 +943,21 @@
     width: 110px;
     line-height: var(--line-height);
     height: calc(var(--line-height)*2);
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
     border-radius: 4px;
-    padding: 0;
+    padding: 0 4px;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-category__link span{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .home-filter {

@@ -4,11 +4,6 @@
         display: none;
     }
 
-    :root {
-        --nav-height: 0;
-        --header-height: 68px;
-    }
-
     .header {
         display: flex;
         align-items: center;
@@ -65,6 +60,11 @@
 
 /*tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --nav-height: 0;
+        --header-height: 68px;
+    }
+    
     .hide-on-tablet {
         display: none;
     }
@@ -76,6 +76,11 @@
 
 /* Mobile*/
 @media (max-width: 739px) {
+    :root {
+        --nav-height: 0;
+        --header-height: 56px;
+    }
+
     .hide-on-mobile {
         display: none;
     }
